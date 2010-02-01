@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# git-addremove
+# borrowed from: http://importantshock.wordpress.com/2008/08/07/git-vs-mercurial/
+git add .
+git ls-files -deleted | xargs git rm
